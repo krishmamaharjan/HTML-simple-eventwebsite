@@ -1,0 +1,188 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img
+{
+    display: block;
+    height: 100px;
+}
+nav{
+     background-color: #010101;
+     width: 80%;
+     border: 20px;
+}
+nav a {
+    color: #ebebeb;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: italic;
+    padding: 20px;
+    display: inline-block;
+}
+nav a:hover
+{
+    color: #faca04;
+
+}
+.active
+{
+    color: #d90807;
+}
+#banner
+{
+    width: 80%;
+}
+#banner img{
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+.info
+{
+    /* background-color:black;  */
+    color: black;
+    position: absolute;
+    right: 0px;
+    top: 150px;
+    left:400px;
+
+    width: 400px;
+    padding: 20px;
+    opacity: 0.5;
+}
+#featured{
+    /*   */
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+
+}
+
+.box{
+    width: 50%;
+    
+}
+.box img{
+    width: 100%;
+    height: 400 px;
+    display: block;
+}
+.information
+{
+    background-color: black;
+   
+}
+.information h2{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px;
+}
+.information a{
+    background-color: red;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+.information a:hover{
+    color: yellow;
+}
+footer
+{
+    width: 80%;
+    background-color: black;
+    padding: 40px 10px;
+}
+.footer_box{
+    display: flex;
+
+}
+.fbox{
+    width: 50%;
+}
+.fbox img{
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    padding-bottom: 10px;
+}
+.fbox p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+}
+.fbox h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+.fbox a{
+    color: red;
+}
+
+
+/* about page */
+#about
+{
+    width: 80%;
+
+}
+#about h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    padding: 10px 0;
+
+}
+#about p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    padding: 10px 0;
+
+}
+#about img{
+    width: 100%;
+    display: block;
+}
+
+#contact{
+    width: 80%;
+    padding: 40px 0;
+    display: flex;
+}
+.map{
+    width: 50%;
+}
+.form{
+    width: 50%;
+}
+
+.form label{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    margin: 5px 0;
+
+}
+.form input, .form textarea{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px 0;
+}
+.form input[type="submit"]{
+    background-color: blue;
+    color: white;
+
+}
